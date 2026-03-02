@@ -1,4 +1,4 @@
-# Manual - `<Project NAME>`
+# Manual - `ReactClicker`
 
 > [!Note]
 > Add your user manual here:  

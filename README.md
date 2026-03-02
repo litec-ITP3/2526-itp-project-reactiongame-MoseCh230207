@@ -1,10 +1,8 @@
-# `<TODO: Replace with Project Title>`
+# `ReactClicker`
 
 ## Short Project Description
 
-> [!NOTE]
-> **TODO**: Replace this note with a short description of your project.  
-> A detailed description should be found in the concept document (see below).
+- A short game to test your reaction time. 
 
 ### Detailed Description
 
@@ -14,8 +12,8 @@ See [Concept Document](./doc/concept.md).
 
 ## Team
 
-> [!Note]
-> Replace this note with a short team description (mebers and their main responsibilites/tasks).
+- Moster Christoph = Hardware(Micro Controler - Setup & Arduiono - Programm language : "C")
+- Kauv Marcel = Software(Website - Setup | Program language: "Html,Css, Javascript etc.)
 
 ### Progress Report(s)
 
@@ -29,18 +27,8 @@ See [Concept Document](./doc/concept.md).
 > 
 > Adjust the links below (name of document should contain the team-member name) and remove this note. 
 
-- [Project Diary Member1](./doc/project-diary-1.md)
-- [Project Diary Member2](./doc/project-diary-2.md)
-- [Project Diary Member3](./doc/project-diary-3.md)
-- ...
-
+- [Project Diary Member1](./doc/project-diary.md)
 ---
-
-## Manual
-
-See [Manual](./doc/manual.md)
-
---
 
 ### OPTIONAL Stuff
 

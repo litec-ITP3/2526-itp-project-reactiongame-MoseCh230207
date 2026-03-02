@@ -29,3 +29,6 @@
     4. Develop the C-Software on the MicroController 
     5. Develop a simple Webapp to start/stop the game/new rounds
     6. Build up the connection between Micro-Controller and Webapp
+
+
+    

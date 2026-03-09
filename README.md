@@ -12,7 +12,7 @@ See [Concept Document](./doc/concept.md).
 
 ## Team
 
-- Moster Christoph = Hardware(Micro Controler - Setup & Arduiono - Programm language : "C")
+- Moster Christoph = Hardware(Micro Controler - Setup & Arduino - Programm language : "C")
 - Kauv Marcel = Software(Website - Setup | Program language: "Html,Css, Javascript etc.)
 
 ### Progress Report(s)

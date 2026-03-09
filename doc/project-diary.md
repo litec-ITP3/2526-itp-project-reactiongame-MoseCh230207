@@ -9,3 +9,8 @@
 - Started with first trys on WOKWI
 - Abspeicherung WOKWI
 ![Bild1](assets/image.png)  
+
+
+## 9.3.2026(Day3):
+- Prototype solution on Pico W + Arduino (TODO: Why does the blueLED not completely turn off)
+- Completion of Website by Marcel  

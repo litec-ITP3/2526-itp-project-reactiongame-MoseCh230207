@@ -31,4 +31,5 @@
     6. Build up the connection between Micro-Controller and Webapp
 
 
-    
+## Our Concept:
+- PICO gets Data from the buttons -> sends it to the Server -> Server displays them on the Website

@@ -25,6 +25,9 @@
     - Wie kann ich einen Timer machen? Also alle 5 Sekunden leuchtet blau für 3 Sekunden auf und das ganze 15 Sekunden lang.
     - Wie kann ich in der Arduinokonsole ausgeben? 
 
+## 27.04.2026(Day 5): 
+- Serial interface -> Pico communicates its Data to the Website
+- Server puts the Data correct onto the Website
 
 
-TODO: Create the connection to the Rest-API
+TODO: Implement the Logic into the Sketch, prevent the counter from increasing by itself, put the Data correct on the REAL Website (P.S.: WE USE THE `analogue_Version` for the Pico), put all used AI-Prompts here

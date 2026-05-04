@@ -1,5 +1,8 @@
 # `ReactClicker`
 
+- **IMPORTANT:** The endproduct is in the  `ENDPRODUCT` Folder. In the other folders, there is REDUNDANT work.
+
+
 ## Short Project Description
 
 - A short game to test your reaction time. 
@@ -40,17 +43,5 @@ See [Concept Document](./doc/concept.md).
 
 - [Poster](./doc/poster.pdf)
 - [Flyer](./doc/flyer.pdf)
-
----
-
-### Basic Repository Structure (and File Contents)
-
-```txt
-\readme.md ... this file
-\doc\ ... folder with all relevant project documents (concept, manual, project reports, ...)
-\src\ ... folder for all kind of source code (tryouts: in sandbox subfolder or branching)
-```
-
-
 
 

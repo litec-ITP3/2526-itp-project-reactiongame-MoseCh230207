@@ -1,14 +1,10 @@
 # Source Folder
 
-- Add source code here
-- Create folder for each programming language (language, e.g java, cs, python, ...)
-- For tryout code:
-  - either create a sandbox subfolder, or
-  - use git branching
-  
+- **IMPORTANT:** The endproduct is in the  `ENDPRODUCT` Folder. In the other folders, there is REDUNDANT work.
+ 
 # BEWERTUNGSKRITERIEN
--  Manual -> noch machen
+-  Manual -> 70% fertig
 -  Installation -> noch machen
--  Webserver -> 70%
--  Display -> Website ist da also 100%
--  Funktioniert es? -> 50% (Es werden schon Daten übertragen)
+-  Webserver -> 100% ✅
+-  Display -> Website ist da also 100% ✅
+-  Funktioniert es? -> 100% ✅

@@ -29,5 +29,9 @@
 - Serial interface -> Pico communicates its Data to the Website
 - Server puts the Data correct onto the Website
 
+## 04.05.2026(Day 6):
+- Website --> Done
+- C-Sketch --> Done
+- Webserver --> Done
 
-TODO: Implement the Logic into the Sketch, prevent the counter from increasing by itself, put the Data correct on the REAL Website (P.S.: WE USE THE `analogue_Version` for the Pico), put all used AI-Prompts here
+TODO: Finish the manual and installation tutorials, put all used AI-Prompts here

@@ -34,4 +34,4 @@
 - C-Sketch --> Done
 - Webserver --> Done
 
-TODO: Finish the manual and installation tutorials, put all used AI-Prompts here
+TODO: Finish the manual and installation tutorials, programm restarts/ new rounds, put all used AI-Prompts here

@@ -6,7 +6,6 @@ const { ReadlineParser } = require("@serialport/parser-readline");
 
 const app = express();
 
-//let currentData = { score: 0 };
 let currentData = {
   scoreOrange: 0,
   scoreRed: 0,
@@ -15,7 +14,7 @@ let currentData = {
 let port = null;
 let parser = null;
 
-// 🔍 Funktion zum Verbinden
+// Funktion zum Verbinden
 function connectSerial() {
   console.log("Versuche Serial-Verbindung...");
 
@@ -23,7 +22,7 @@ function connectSerial() {
     port = new SerialPort({
       path: "COM4", // anpassen!
       baudRate: 115200,
-      autoOpen: false, // ❗ wichtig
+      autoOpen: false, // wichtig
     });
 
     port.open((err) => {
@@ -36,6 +35,7 @@ function connectSerial() {
 
       parser = port.pipe(new ReadlineParser({ delimiter: "\n" }));
 
+      // Ale Version mit nur einem Counter:
       /*parser.on("data", line => {
         try {
           const data = JSON.parse(line);
@@ -45,6 +45,8 @@ function connectSerial() {
           console.log("Ungültige Daten:", line);
         }
       });*/
+
+      // Neue Version:
       parser.on("data", (line) => {
         try {
           const data = JSON.parse(line);
@@ -68,14 +70,14 @@ function connectSerial() {
   }
 }
 
-// 🔁 Versuche alle 3 Sekunden neu zu verbinden
+// Versuche alle 3 Sekunden neu zu verbinden
 setInterval(() => {
   if (!port || !port.isOpen) {
     connectSerial();
   }
 }, 3000);
 
-// 🌐 API
+// API
 app.get("/data", (req, res) => {
   res.json(currentData);
 });

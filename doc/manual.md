@@ -22,6 +22,6 @@
 - Note: Don´t forget to install `Node.js` and the necessary Node-Modules for the `express.js`-Server
 - Short: First start Webserver, then the PICO-Application
     - Put Buttons on correct Pins: BlueButton on `D16`, RedButton on `D18` and OrangeButton on `D20`
-    - Start Webserver--> `node express.js` --> Open up `http://localhost:3000` on your Browser
+    - Start Webserver--> `node express.js` (be careful-->you need to be in the `/src/ENDPRODUCT/WEB/` folder to start it) --> Open up `http://localhost:3000` on your Browser
     - Start PICO W --> Press BOOTSEL, put USB into your Laptop-Port, put Sketch (the analogue one) into your "ARDUINO-IDE" and upload it.
     - PLAY!

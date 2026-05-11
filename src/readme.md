@@ -8,3 +8,11 @@
 -  Webserver -> 100% ✅
 -  Display -> 100% ✅
 -  Funktioniert es? -> 100% ✅
+
+konzept ✅
+manual ✅
+installation ✅
+meilensteine ✅
+webserver ✅
+display ✅
+funktioniert? ✅

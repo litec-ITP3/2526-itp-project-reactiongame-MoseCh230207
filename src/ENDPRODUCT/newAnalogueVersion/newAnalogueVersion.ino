@@ -26,7 +26,7 @@ void loop() {
 
   unsigned long startTime = millis();
 
-  // ⏱ 3 Sekunden Zeitfenster
+  // 3 Sekunden Zeitfenster
   while (millis() - startTime < 3000 && !winnerfound) {
 
     int orange = digitalRead(buttonOrangePin);
@@ -46,17 +46,17 @@ void loop() {
     }
   }
 
-  // 🌐 JSON senden
+  //  JSON senden
   Serial.print("{\"scoreOrange\":");
   Serial.print(counterPlayer1);
   Serial.print(",\"scoreRed\":");
   Serial.print(counterPlayer2);
   Serial.println("}");
 
-  // 🔵 LED aus
+  //  LED aus
   digitalWrite(blueLED_Pin, LOW);
   Serial.println("Pause...");
 
-  // ⏳ 5 Sekunden Pause
+  //  5 Sekunden Pause
   delay(5000);
 }
